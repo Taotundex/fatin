@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fatin, body{
+    overflow-x: hidden;
+}
+body{
+    background: #F4FEFF !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+nav .navbar-brand{
+    width: 59px;
+    height: 59px;
+}
+nav .nav-link{
+    font-size: 18px;
+    color: #c4c4c4 !important;
+    font-weight: 600 !important;
+}
+nav .right img{
+    object-position: center;
+    object-fit: cover;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+
+.hero .text h2{
+    color: #172048;
+    font-size: 50px;
+    font-weight: 700;
+    /* line-height: 70px; */
+}
+.hero .text h2 span{
+    color: #0077B6;
+}
+.hero .text button{
+    background: #0077B6;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+.rate{
+    background: #0077B6;
+}
+.rate .country h3{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+.rate .country .number{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+.about .text h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.about .text h3{
+    color: #0077B6;
+    font-size: 30px;
+    font-weight: 700;
+}
+.about .text .content{
+    color: #C4C4C4 !important;
+}
+.about .text i{
+    color: #0077B6 !important;
+    /* width: 30px; */
+    font-size: 25px;
+}
+.about .text h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.about .text p{
+    font-size: 14px;
+    font-weight: 600;
+}
