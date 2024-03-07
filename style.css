@@ -418,14 +418,38 @@ footer{
     left: 0;
 }
 .account .right{
+    position: relative;
     background: #F4FEFF !important;
-    height: 100vh;
     overflow-y: scroll;
 }
 .account .right::-webkit-scrollbar{
     display: none;
 }
+.account .right .form{
+    background: #F4FEFF !important;
+    height: 100vh;
+}
+.account .right .img {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+/* .account .right .img img{
+} */
+.account .right .img img:first-child{
+    position: absolute;
+    width: 175px;
+    right: 0;
+    top: 0;
+}
+.account .right .img img:last-child{
+    position: absolute;
+    width: 350px;
+    left: -75px;
+    bottom: 0;
+}
 .account form{
+    position: relative;
     background: white;
     border-radius: 20px;
     padding: 30px 50px;

@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dashboard, body{
+    overflow-x: hidden !important;
+}
+body{
+    background: #F4FEFF !important;
+}
+.sidebar{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    background: #0077B6;
+    color: white;
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+.sidebar .logo{
+    width: 50%;
+    margin: 0px auto;
+    padding: 25px 0 50px 0;
+}
+.sidebar ul{
+    margin: 0;
+    padding: 0;
+}
+.sidebar ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: #ffffff80;
+}
+.sidebar ul li .active{
+    text-decoration: none;
+    color: #ffffff;
+}
+.sidebar ul li a i{
+    font-size: 20px;
+}
+.sidebar ul li:last-child {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    width: 100%;
+}
+.sidebar ul li:last-child i{
+    transform: rotate(90deg) !important;
+}
+
+
+
+
+
+.body{
+    height: 100vh;
+    overflow-y: scroll;
+}
+.body::-webkit-scrollbar{
+    display: none;
+}
+.body .profilepicture{
+    background: white;
+    border-radius: 20px;
+}
+.body .profilepicture .img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.body .profilepicture .name h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+.body .profilepicture .name h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #C4C4C4;
+}
+.body .profilepicture .name button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: #0077B6;
+}
+
+.body .info {
+    border-radius: 20px;
+    background: white;
+}
+.body .info h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.body .info .grid{
+    height: 40px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.body .info .grid h4{
+    font-weight: 700;
+    font-size: 18px;
+}
+.body .info .grid p{
+    font-weight: 700;
+    font-size: 20px;
+    color: #C4C4C4;
+}
+
+
+.body .rate{
+    border-radius: 20px;
+}
+.body .rate .img img{
+    width: 70px;
+    height: 70px;
+}
+.body .rate .details h6{
+    font-weight: 600;
+    font-size: 16px;
+}
+.body .rate .details h4{
+    font-weight: 700;
+    font-size: 30px;
+}
+.body .rate .details h4 span{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.body .rate h3{
+    color: #0077B6;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.body .rate i{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0077B680;
+    border-radius: 10px;
+    font-size: 35px;
+}
+.body .rate .one{
+    background: #2CD64733;
+}
+.body .rate .two{
+    background: #FC200233;
+}
+.body .rate .nam h4{
+    font-weight: 700;
+    font-size: 14px;
+}
+.body .rate .nam p{
+    line-height: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #C4C4C4;
+}
+
+
+
+.appoint {
+    border-radius: 20px;
+}
+.appoint h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.wrapper{
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+  }
+  .wrapper header{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  header .icons{
+    display: flex;
+    align-items: center;
+  }
+  header .icons span{
+    /* background-color: red; */
+    height: 30px;
+    width: 30px;
+    margin: 0 1px;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20pxrem;
+    user-select: none;
+    border-radius: 50%;
+  }
+  .icons span:last-child{
+    margin-right: -10px;
+  }
+  header .icons span:hover{
+    background: #f2f2f2;
+  }
+  header .current-date{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .calendar{
+    padding: 5px;
+  }
+  .calendar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  /* .calendar .days{
+    margin-bottom: 20px;
+  } */
+  .calendar li{
+    color: black;
+    width: calc(100% / 7);
+    font-size: 14px;
+    font-weight: 400;
+}
+.calendar .weeks li{
+    font-weight: 400;
+    /* font-size: 12px; */
+    cursor: default;
+}
+.calendar .days li{
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.days li.inactive{
+    color: black;
+}
+.days li.active{
+    font-weight: 500;
+    /* background: #0077B633 !important; */
+}
+.days li::before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 35px;
+    width: 35px;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.days li.active::before{
+    background: #0077B633;
+}
+.days li:not(.active):hover::before{
+    background: #F4FEFF;
+}
+
+
+.listing .d-flex {
+    border-radius: 20px;
+    margin: 15px 0;
+}
+.listing .d-flex .img img{
+    width: 50px;
+    height: 50px;
+}
+.listing .d-flex .content h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+.listing .d-flex p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 0;
+}
+.listing .d-flex .time{
+    margin-left: auto;
+}
+
+
+
+
+
+
+/* HISTORY */
+.table-container {
+    margin: auto;
+    overflow-x: scroll;
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+thead tr {
+    border: none;
+}
+th {
+    font-weight: bold;
+    height: 50px;
+}
+/* th:not(:first-of-type) {
+    border-left: 1px solid #ddd;
+} */
+th button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font: inherit;
+    height: 100%;
+    margin: 0;
+    min-width: max-content;
+    padding: 0.5rem 1rem;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}  
+th button::after {
+    position: absolute;
+    right: 1rem;
+}
+th button[data-dir="asc"]::after {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpolygon points='0, 0 8,0 4,8 8' fill='%23818688'/%3E%3C/svg%3E");
+}  
+th button[data-dir="desc"]::after {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpolygon points='4 0,8 8,0 8' fill='%23818688'/%3E%3C/svg%3E");
+}
+tbody tr {
+    background: white;
+    margin: 10px 0 !important;
+}
+
+td {
+    padding: 1rem 1rem;
+    text-align: left;
+    /* height: 50px; */
+  }
