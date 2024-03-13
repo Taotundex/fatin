@@ -66,6 +66,9 @@ body{
     height: 100vh;
     overflow-y: scroll;
 }
+.body .heading{
+    display: none;
+}
 .body::-webkit-scrollbar{
     display: none;
 }
@@ -116,6 +119,7 @@ body{
     font-size: 18px;
 }
 .body .info .grid p{
+    margin-top: 10px;
     font-weight: 700;
     font-size: 20px;
     color: #C4C4C4;
@@ -363,4 +367,332 @@ td {
     padding: 1rem 1rem;
     text-align: left;
     /* height: 50px; */
-  }
+}
+
+
+
+
+.all-details {
+    border-radius: 20px;
+}
+.all-details header button{
+    font-size: 14px;
+    font-weight: 700;
+    height: 25px;
+    padding: 0 5px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+.all-details .form h3{
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.all-details .form form input[type="file"]{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px dashed #4C535F;
+    background: #EDF2F6;
+    border-radius: 10px;
+    opacity: 0.00001;
+}
+.all-details .form form .top{
+    /* position: relative; */
+    color: #4C535F;
+    font-weight: 500;
+    font-size: 14px;
+    width: 200px;
+    height: 200px;
+    border: 1px dashed #4C535F;
+    background: #EDF2F6;
+    border-radius: 10px;
+}
+.all-details .form form .top img{
+    width: 70px;
+    height: 60px;
+}
+.all-details .form form .pic{
+    border-bottom: 1px solid #E0E4EC;
+}
+.all-details .form form .personal label{
+    font-size: 18px;
+    font-weight: 600;
+    color: #C4C4C4;
+    width: 100%;
+}
+.all-details .form form .personal input{
+    outline: none;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #EDF2F6;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin: 5px 0 10px 0;
+}
+.all-details .form form .personal input::placeholder{
+    color: #8D98AA;
+    font-size: 16px;
+    font-weight: 400;
+}
+.all-details .form form .personal textarea{
+    outline: none;
+    width: 100%;
+    height: 150px;
+    border: none;
+    background: #EDF2F6;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px 0 10px 0;
+}
+.all-details .form form .personal textarea::placeholder{
+    color: #8D98AA;
+    font-size: 16px;
+    font-weight: 400;
+}
+.all-details .form form .btns button{
+    height: 50px;
+    width: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+}
+.all-details .form form .btns button:first-child{
+    background: #0077B6;
+    color: white;
+}
+.all-details .form form .btns button:last-child{
+    background: transparent;
+    color: black;
+}
+
+
+
+.chatname {
+    height: 100vh;
+    overflow-y: scroll;
+}
+.chatname .p-lg-4{
+    background: white;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.chatname::-webkit-scrollbar {
+    display: none;
+}
+.chatname form{
+    width: 100%;
+    height: 50px;
+    background: #f6f6f6;
+    border-radius: 10px;
+    border: none;
+}
+.chatname form i{
+    width: 50px;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chatname form input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    background: transparent;
+}
+.chatlists a{
+    background: #0077B680;
+}
+.chatlists .list img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.chatlists .list .name h5{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    color: black;
+}
+.chatlists .list p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #00000099;
+}
+.chatlists .list .name p{
+    line-height: 0px;
+}
+.chatlists .list .time p{
+    line-height: 30px;
+}
+
+
+.chat{
+    position: relative;
+    height: 100vh;
+}
+.chat .head{
+    background: #0077B6;
+}
+.chat .head img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.chat .head .name h5{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+}
+.chat .head p{
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    line-height: 0;
+}
+.chat .mychat{
+    height: 70vh;
+    overflow-y: scroll;
+}
+.chat .mychat::-webkit-scrollbar{
+    display: none;
+}
+.chat .message .receiver{
+    width: 50%;
+    margin: 5px;
+}
+.chat .message .receiver img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.chat .message .receiver .you{
+    background: #F4F4F7;
+    border-radius: 0 15px 15px 15px;
+    padding: 10px 15px;
+}
+.chat .message .receiver .you p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #00000099;
+    line-height: 18px;
+}
+.chat .message .receiver .you small{
+    font-size: 10px;
+    font-weight: 500;
+    color: #C4C4C4;
+}
+.chat .message .sender{
+    width: 50%;
+    margin: 5px;
+}
+.chat .message .sender .me{
+    background: white;
+    border-radius: 15px 15px 0 15px;
+    padding: 10px 15px;
+}
+.chat .message .sender .me p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #00000099;
+    line-height: 18px;
+}
+.chat .message .sender .me small{
+    font-size: 10px;
+    font-weight: 500;
+    color: #C4C4C4;
+}
+/* .chat .send{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+} */
+.chat .send form input[type="file"]{
+    position: absolute;
+    opacity: 0.0000001;
+    height: 50px;
+    width: 50px;
+}
+.chat .send form .top{
+    border-radius: 10px;
+    background: white;
+    height: 50px;
+    width: 50px;
+}
+.chat .send form .top i{
+    transform: rotate(45deg);
+}
+.chat .send form .myinput{
+    border-radius: 10px;
+    height: 50px;
+}
+.chat .send form .myinput input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+}
+.chat .send form button{
+    margin-right: 5px;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    background: #0077B6;
+    color: white;
+    width: 70px;
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat .send form button i{
+    transform: rotate(45deg);
+}
+
+
+.showChat{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0076b652;
+    backdrop-filter: blur(20px);
+    z-index: 100;
+}
+.showChat .chat{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: auto;
+    border-radius: 0;
+    background: #F4FEFF;
+    border: 3px solid #0077B680;
+}
+.showChat .chat .head{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.showChat .mychat {
+    height: 70vh;
+    overflow-y: scroll;
+}
+.showChat .mychat ::-webkit-scrollbar{
+    display: none;
+}
