@@ -82,7 +82,7 @@
                     <ul>
                         <li><a href="dashboard.php" class="active"><i class="bi bi-grid"></i></a></li>
                         <li><a href="history.php"><i class="bi bi-clock-history"></i></a></li>
-                        <li><a href="chat.php#last"><i class="bi bi-chat-left"></i></a></li>
+                        <li><a href="message.php#last"><i class="bi bi-chat-left"></i></a></li>
                         <li><a href="setting.php"><i class="bi bi-gear"></i></a></li>
                         <li><a href="logout.php" class="d-flex flex-column text-center"><i class="bi bi-upload"></i>Log out</a></li>
                     </ul>
@@ -100,7 +100,7 @@
                         <ul class="d-flex justify-content-between align-items-center">
                             <li><a href="dashboard.php" class="d-flex flex-column text-center gap-2 active"><i class="bi bi-grid"></i>Dashboard</a></li>
                             <li><a href="history.php" class="d-flex flex-column text-center gap-2"><i class="bi bi-clock-history"></i>History</a></li>
-                            <li><a href="chat.php#last" class="d-flex flex-column text-center gap-2"><i class="bi bi-chat-left"></i>Chat</a></li>
+                            <li><a href="message.php#last" class="d-flex flex-column text-center gap-2"><i class="bi bi-chat-left"></i>Chat</a></li>
                             <li><a href="setting.php" class="d-flex flex-column text-center gap-2"><i class="bi bi-gear"></i>Setting</a></li>
                             <li><a href="logout.php" class="d-flex flex-column text-center gap-2"><i class="bi bi-upload"></i>Log out</a></li>
                         </ul>

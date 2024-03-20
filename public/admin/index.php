@@ -44,7 +44,7 @@
                     <ul>
                         <li><a href="index.php" class="active"><i class="bi bi-grid"></i></a></li>
                         <li><a href="admin-history.php"><i class="bi bi-clock-history"></i></a></li>
-                        <!-- <li><a href="admin-chat.php"><i class="bi bi-chat-left"></i></a></li> -->
+                        <!-- <li><a href="admin-message.php"><i class="bi bi-chat-left"></i></a></li> -->
                         <!-- <li><a href="admin-setting.php"><i class="bi bi-gear"></i></a></li> -->
                         <li><a href="../logout.php" class="d-flex flex-column text-center"><i class="bi bi-upload"></i>Log out</a></li>
                     </ul>
@@ -62,7 +62,7 @@
                       <ul class="d-flex justify-content-between align-items-center">
                           <li><a href="index.php" class="d-flex flex-column text-center gap-2 active"><i class="bi bi-grid"></i>Dashboard</a></li>
                           <li><a href="admin-history.php" class="d-flex flex-column text-center gap-2"><i class="bi bi-clock-history"></i>History</a></li>
-                          <!-- <li><a href="admin-chat.php" class="d-flex flex-column text-center gap-2"><i class="bi bi-chat-left"></i>Chat</a></li> -->
+                          <!-- <li><a href="admin-message.php" class="d-flex flex-column text-center gap-2"><i class="bi bi-chat-left"></i>Chat</a></li> -->
                           <!-- <li><a href="admin-setting.php" class="d-flex flex-column text-center gap-2"><i class="bi bi-gear"></i>Setting</a></li> -->
                           <li><a href="../logout.php" class="d-flex flex-column text-center gap-2"><i class="bi bi-upload"></i>Log out</a></li>
                       </ul>
@@ -121,7 +121,7 @@
                                     <td><?php echo $user['patientId'];?></td>
                                     <td><?php echo $user['lastVisit'];?></td>
                                     <td>
-                                        <a href="admin-chat.php?chatuser=<?php echo $user["name"];?>">
+                                        <a href="admin-message.php?chatuser=<?php echo $user["name"];?>">
                                             <button>Chat</button>
                                         </a>
                                     </td>
