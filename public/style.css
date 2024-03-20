@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fatin, body{
+    overflow-x: hidden;
+}
+body{
+    background: #F4FEFF !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+nav .navbar-brand{
+    width: 60px;
+    height: 60px;
+}
+nav .nav-link{
+    font-size: 14px;
+    color: #c4c4c4 !important;
+    font-weight: 600 !important;
+    line-height: 50px;
+}
+nav .right .img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+nav .right img{
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero .text h2{
+    color: #172048;
+    font-size: 50px;
+    font-weight: 700;
+    /* line-height: 70px; */
+}
+.hero .text h2 span{
+    color: #0077B6;
+}
+.hero .text button{
+    font-size: 18px;
+    font-weight: 600;
+    background: #0077B6;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+.rate{
+    background: #0077B6;
+}
+.rate .country h3{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+.rate .country .number{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+.about .text h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.about .text h3{
+    color: #0077B6;
+    font-size: 30px;
+    font-weight: 700;
+}
+.about .text .content{
+    color: #C4C4C4 !important;
+}
+.about .text i{
+    color: #0077B6 !important;
+    /* width: 30px; */
+    font-size: 25px;
+}
+.about .text h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.about .text p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.services .head h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.services .head h2 span{
+    color: #0077B6;
+}
+.services .book{
+    background: #0077B6;
+    border-radius: 10px;
+    color: white;
+}
+.services .health{
+    background: linear-gradient(to bottom, #4ED6DA, #04789D);
+}
+.services .book .img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.services .book center {
+    margin: 15px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+.services .book p{
+    height: 100px;
+    overflow-y: scroll;
+    font-weight: 400;
+    font-size: 14px;
+}
+.services .book p::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.videos .head h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.videos .head h2 span{
+    color: #0077B6;
+}
+.videos .text{
+    margin-top: 10px;
+    height: 50px;
+    font-weight: 600;
+    overflow-y: scroll;
+}
+.videos .text::-webkit-scrollbar{
+    display: none;
+}
+.videos .details .img{
+    position: relative;
+}
+.videos .details img{
+    position: relative;
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
+}
+.videos .details i{
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00000055;
+    font-size: 75px;
+    color: #ffffff;
+}
+.videos .text-right a{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    color: #0077B6;
+    font-weight: 600;
+}
+
+
+
+
+.hospital .head h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.hospital .head h2 span{
+    color: #0077B6;
+}
+.hospital {
+    background: white;
+}
+.hospital .details {
+    border-radius: 10px;
+    background: #F4FEFF;
+}
+.hospital .details .text{
+    margin-top: 15px;
+}
+.hospital .details p{
+    font-weight: 600;
+    margin: 0;
+}
+.hospital .details .d-flex{
+    line-height: 20px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+
+
+
+.appointment{
+    position: relative;
+    overflow: hidden;
+}
+.appointment .bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.appointment .container{
+    position: relative;
+}
+.appointment .bg img{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+.appointment .bg img:first-child{
+    right: -225px;
+    top: -125px;
+}
+.appointment .bg img:last-child{
+    right: 150px;
+    bottom: -115px;
+}
+.appointment .head{
+    width: 250px;
+}
+.appointment .head h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.appointment .head h2 span{
+    color: #0077B6;
+}
+.appointment form label{
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+}
+.appointment form {
+    margin: 30px 0;
+}
+.appointment form input{
+    font-weight: 600;
+    font-size: 18px;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #0077B6;
+    background: transparent;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 5px 0 15px 0;
+}
+.appointment form input[type="radio"]{
+    width: 18px;
+    height: 18px;
+    border: 1px solid #0077B6;
+    background: transparent;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+::placeholder{
+    color: #C4C4C4 !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+.appointment .row .d-flex{
+    font-size: 18px;
+    color: #C4C4C4;
+}
+.appointment form button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: #0077B6;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.appointment .img img{
+    height: 700px;
+    object-fit: cover;
+}
+
+
+
+
+.contact {
+    background: white;
+}
+.contact .head {
+    margin-bottom: 50px;
+}
+.contact .head h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact .head h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.contact .head h2 span{
+    color: #0077B6;
+}
+.contact form input{
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    background: none;
+    border: 1px solid #0077B6;
+    outline: none;
+    padding: 0 10px;
+    margin: 5px 0 15px 0;
+    border-radius: 10px;
+}
+.contact form textarea{
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+    height: 150px;
+    background: none;
+    border: 1px solid #0077B6;
+    outline: none;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border-radius: 10px;
+}
+.contact form label{
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+}
+.contact form button{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #0077B6;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+footer{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0077B6;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+
+
+/* LOGIN */
+.account .logo{
+    margin: 0px auto;
+    width: 10%;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.account form{
+    width: 80%;
+    background: white;
+    border-radius: 20px;
+    padding: 50px 30px;
+}
+.account .left{
+    position: relative;
+    width: 100%;
+    background: #0077B633 !important;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.account .left::-webkit-scrollbar{
+    display: none;
+}
+.account .left .img img{
+    position: absolute;
+}
+.account .left .img img:first-child{
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    translate: -55% -30%;
+}
+.account .left .img img:last-child{
+    width: 100%;
+    top: 60px;
+    left: 0;
+}
+.account .right{
+    position: relative;
+    background: #F4FEFF !important;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.account .right::-webkit-scrollbar{
+    display: none;
+}
+.account .right .form{
+    background: #F4FEFF !important;
+    height: 100vh;
+}
+.account .right .img {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.account .right .img img:first-child{
+    position: absolute;
+    width: 175px;
+    right: 0;
+    top: 0;
+}
+.account .right .img img:last-child{
+    position: absolute;
+    width: 350px;
+    left: -75px;
+    bottom: 0;
+}
+.account form{
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    padding: 30px 50px;
+}
+.account form h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+.account form label{
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+}
+.account form input{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 1px solid #0077B6;
+    background: none;
+    border-radius: 0;
+}
+.account form button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: #0077B6;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.account form center {
+    font-size: 18px;
+    font-weight: 600;
+}
+.account form center a{
+    text-decoration: none;
+    color: #0077B6;
+}

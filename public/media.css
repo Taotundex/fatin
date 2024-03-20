@@ -1,0 +1,142 @@
+@media screen and (max-width: 767px) {
+    nav .right{
+        width: fit-content;
+        margin: 0 auto;
+    }
+    nav .nav-link{
+        line-height: 35px;
+    }
+    .hero{
+        padding: 50px 0;
+    }
+    .hero .text{
+        padding: 50px 0;
+    }
+    .hero .text h2{
+        color: #172048;
+        font-size: 50px;
+        font-weight: 700;
+        /* line-height: 70px; */
+    }
+
+
+    /* LOGIN */
+    .account .left{
+        display: none;
+    }
+    .account .right{
+        /* position: relative; */
+        background: transparent !important;
+    }
+    .account form center {
+        font-size: 14px;
+    }
+    .account form{
+        width: 90%;
+        padding: 35px;
+    }
+
+
+
+    /* DASHBOARD */
+    .sidebar{
+        display: none;
+    }
+    .body .heading{
+        z-index: 1;
+        display: block;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: #0077B6;
+    }
+    .body .heading .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .body .heading i{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        color: #0077B6;
+        font-size: 30px;
+        border-radius: 5px;
+    }
+
+
+    .bottombar{
+        z-index: 10;
+        background: #0077B6;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        /* padding: 10px 25px; */
+    }
+    .bottombar ul{
+        margin: 0;
+        padding: 0;
+    }
+    .bottombar ul li{
+        list-style-type: none;
+    }
+    .bottombar ul li a{
+        text-decoration: none;
+        color: #ffffff80;
+        font-size: 14px;
+        line-height: 0;
+    }
+    .bottombar ul li a i{
+        font-size: 25px;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .bottombar ul li .active{
+        color: #ffffff !important;
+    }
+    
+
+    /* .chatname .p-lg-4{
+        background: white;
+        position: fixed;
+        width: 100%;
+        top: 80px;
+        left: 0;
+    } */
+    /* .chatlists {
+        margin-top: 80px !important;
+    } */
+    .bi-arrow-right{
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #ffffff80;
+        border-radius: 50%;
+    }
+    .showChat .chat{
+        width: 95%;
+        /* border-radius: 20px; */
+        background: #F4FEFF;
+        border: 5px solid #0077B680;
+    }
+    .showChat .chat .send{
+        background: #0077B6;
+    }
+    .modal-body::-webkit-scrollbar{
+        display: none !important;
+    }
+    .showChat .chat form{
+        background: transparent !important;
+    }
+}
